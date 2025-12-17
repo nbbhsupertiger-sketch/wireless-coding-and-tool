@@ -1,0 +1,122 @@
+[p PRO_MODE GLOBOPT AUTOSTATIC RSC14 PICREGULAR PICMID SPACEOPT ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip FT60F01X ]
+[d frameptr 6 ]
+"10 E:\git\wireless-coding-and-tool\FT60-1527-new\coding.c
+[v _coding_syn_1527 coding_syn_1527 `(v  1 e 1 0 ]
+"22
+[v _coding_L_1527 coding_L_1527 `(v  1 e 1 0 ]
+"34
+[v _coding_H_1527 coding_H_1527 `(v  1 e 1 0 ]
+"47
+[v _coding_1527 coding_1527 `(v  1 e 1 0 ]
+"75
+[v _bag_1527 bag_1527 `(v  1 e 1 0 ]
+"62 D:\Program Files (x86)\FMD\CCompiler\data\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 D:\Program Files (x86)\FMD\CCompiler\data\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"10 E:\git\wireless-coding-and-tool\FT60-1527-new\init.c
+[v _DelayUs DelayUs `(v  1 e 1 0 ]
+"24
+[v _DelayMs DelayMs `(v  1 e 1 0 ]
+"40
+[v _Sys_Init Sys_Init `(v  1 e 1 0 ]
+"18 E:\git\wireless-coding-and-tool\FT60-1527-new\main.c
+[v _main main `(v  1 e 1 0 ]
+"63 D:\Program Files (x86)\FMD\CCompiler\data\include\FT60F01X.h
+[v _PORTA PORTA `VEuc  1 e 1 @5 ]
+"74
+[v _PA2 PA2 `VEb  1 e 0 @42 ]
+"76
+[v _PA4 PA4 `VEb  1 e 0 @44 ]
+"77
+[v _PA5 PA5 `VEb  1 e 0 @45 ]
+"111
+[v _INTCON INTCON `VEuc  1 e 1 @11 ]
+"119
+[v _PEIE PEIE `VEb  1 e 0 @94 ]
+"120
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"193
+[v _WDTCON WDTCON `VEuc  1 e 1 @24 ]
+"217
+[v _MSCKCON MSCKCON `VEuc  1 e 1 @27 ]
+"257
+[v _OPTION OPTION `VEuc  1 e 1 @129 ]
+"286
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"340
+[v _OSCCON OSCCON `VEuc  1 e 1 @143 ]
+"372
+[v _WPUA WPUA `VEuc  1 e 1 @149 ]
+"18 E:\git\wireless-coding-and-tool\FT60-1527-new\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"35
+} 0
+"75 E:\git\wireless-coding-and-tool\FT60-1527-new\coding.c
+[v _bag_1527 bag_1527 `(v  1 e 1 0 ]
+{
+[v bag_1527@Data Data `ul  1 p 4 5 ]
+[v bag_1527@frame_num frame_num `ui  1 p 2 9 ]
+[v bag_1527@slp_time slp_time `ui  1 p 2 11 ]
+"86
+} 0
+"47
+[v _coding_1527 coding_1527 `(v  1 e 1 0 ]
+{
+"50
+[v coding_1527@Bit_Mask Bit_Mask `ul  1 a 4 0 ]
+"49
+[v coding_1527@k k `uc  1 a 1 4 ]
+"47
+[v coding_1527@Temp_Data Temp_Data `ul  1 p 4 2 ]
+"66
+} 0
+"10
+[v _coding_syn_1527 coding_syn_1527 `(v  1 e 1 0 ]
+{
+"16
+} 0
+"22
+[v _coding_L_1527 coding_L_1527 `(v  1 e 1 0 ]
+{
+"28
+} 0
+"34
+[v _coding_H_1527 coding_H_1527 `(v  1 e 1 0 ]
+{
+"40
+} 0
+"24 E:\git\wireless-coding-and-tool\FT60-1527-new\init.c
+[v _DelayMs DelayMs `(v  1 e 1 0 ]
+{
+[v DelayMs@Time Time `uc  1 a 1 wreg ]
+"26
+[v DelayMs@b b `uc  1 a 1 4 ]
+[v DelayMs@a a `uc  1 a 1 3 ]
+"24
+[v DelayMs@Time Time `uc  1 a 1 wreg ]
+"27
+[v DelayMs@Time Time `uc  1 a 1 2 ]
+"34
+} 0
+"10
+[v _DelayUs DelayUs `(v  1 e 1 0 ]
+{
+[v DelayUs@Time Time `uc  1 a 1 wreg ]
+"12
+[v DelayUs@a a `uc  1 a 1 1 ]
+"10
+[v DelayUs@Time Time `uc  1 a 1 wreg ]
+"13
+[v DelayUs@Time Time `uc  1 a 1 0 ]
+"17
+} 0
+"40
+[v _Sys_Init Sys_Init `(v  1 e 1 0 ]
+{
+"56
+} 0
